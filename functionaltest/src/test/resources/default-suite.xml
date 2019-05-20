@@ -1,0 +1,8 @@
+<suite name="Suite"  preserve-order="true">
+
+    <test name="functionaltest">
+        <packages>
+            <package name="com.kenite.automation"/>
+        </packages>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+chrome:
+  image: selenium/standalone-chrome-debug:3.141.59-neon
+  ports:
+    - "5900:5900"
+    - "4444:4444"
+
+
+maven:
+  image: maven:3.6.1-jdk-12
+  stop_signal: SIGKILL
+  stdin_open: true
+  tty: true
+  working_dir: $PWD
+  volumes:
+    - $PWD:$PWD
+    - /var/run/docker.sock:/var/run/docker.sock
+    - ~/.m2:/root/.m2
+  command: bash -c "mvn clean install &&
+           mvn verify -pl functionaltest
+           -Dbrowser.remote_uri='http://<HostIPADD>:4444/wd/hub'
+           -Dtest.url='https://xxxxx'
+           -Dbrowser.type='CHROME_MOBILE'
+           -Dskip.tests=‘false’"
