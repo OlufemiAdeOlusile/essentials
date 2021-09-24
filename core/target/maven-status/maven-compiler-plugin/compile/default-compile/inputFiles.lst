@@ -1,0 +1,10 @@
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/core/factory/BrowserFactory.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/core/model/BrowserType.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/brand/Calculations.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/pageobjects/pages/HomePage.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/core/config/ConfigResolver.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/core/factory/BrowserConfigFactory.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/core/model/BrowserConfig.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/core/model/BrowserManager.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/core/dsl/WebDriverDsl.java
+/Users/olufemi/Desktop/ecs/ecsdigital-qa-tech-test/src/test/e2e/core/src/main/java/com/ecsd/automation/pageobjects/BasePageObject.java

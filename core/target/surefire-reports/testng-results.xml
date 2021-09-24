@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-24T01:03:54Z" name="Command line suite" finished-at="2021-09-24T01:03:55Z" duration-ms="512">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T01:03:54Z" name="Command line test" finished-at="2021-09-24T01:03:55Z" duration-ms="512">
+      <class name="com.ecsd.automation.core.model.BrowserManagerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecsd.automation.core.model.BrowserManagerTest@26aa12dd]" started-at="2021-09-24T01:03:55Z" name="setup" finished-at="2021-09-24T01:03:55Z" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_getDriver_should_return_the_same_instance_when_used_in_the_same_test_case()[pri:0, instance:com.ecsd.automation.core.model.BrowserManagerTest@26aa12dd]" started-at="2021-09-24T01:03:55Z" name="test_getDriver_should_return_the_same_instance_when_used_in_the_same_test_case" finished-at="2021-09-24T01:03:55Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getDriver_should_return_the_same_instance_when_used_in_the_same_test_case -->
+      </class> <!-- com.ecsd.automation.core.model.BrowserManagerTest -->
+      <class name="com.ecsd.automation.brand.CalculationsTest">
+        <test-method signature="test_getIndexOfBalancedArray_should_return_null_when_unblanaced()[pri:0, instance:com.ecsd.automation.brand.CalculationsTest@1e965684]" started-at="2021-09-24T01:03:55Z" name="test_getIndexOfBalancedArray_should_return_null_when_unblanaced" finished-at="2021-09-24T01:03:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getIndexOfBalancedArray_should_return_null_when_unblanaced -->
+        <test-method signature="test_getIndexOfBalancedArray_should_return_the_correct_index()[pri:0, instance:com.ecsd.automation.brand.CalculationsTest@1e965684]" started-at="2021-09-24T01:03:55Z" name="test_getIndexOfBalancedArray_should_return_the_correct_index" finished-at="2021-09-24T01:03:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getIndexOfBalancedArray_should_return_the_correct_index -->
+      </class> <!-- com.ecsd.automation.brand.CalculationsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

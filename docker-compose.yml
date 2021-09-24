@@ -1,9 +1,3 @@
-chrome:
-  image: selenium/standalone-chrome-debug:3.141.59-neon
-  ports:
-    - "5900:5900"
-    - "4444:4444"
-
 
 maven:
   image: maven:3.6.1-jdk-12
@@ -17,7 +11,7 @@ maven:
     - ~/.m2:/root/.m2
   command: bash -c "mvn clean install &&
            mvn verify -pl functionaltest
-           -Dbrowser.remote_uri='http://<HostIPADD>:4444/wd/hub'
-           -Dtest.url='https://xxxxx'
-           -Dbrowser.type='CHROME_MOBILE'
-           -Dskip.tests=‘false’"
+           -Dskip.tests='false'
+           -Dtest.url='http://172.17.0.1:3000/'
+           -Dbrowser.remote_uri='http://172.17.0.1:4444/wd/hub'
+           -Dbrowser.type='CHROME'"

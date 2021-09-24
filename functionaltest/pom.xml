@@ -3,8 +3,8 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>essentials</artifactId>
-        <groupId>com.essentials</groupId>
+        <artifactId>e2e</artifactId>
+        <groupId>com.e2e</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -14,7 +14,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.essentials</groupId>
+            <groupId>com.e2e</groupId>
             <artifactId>core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -31,21 +31,20 @@
             <artifactId>junit</artifactId>
         </dependency>
         <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
         </dependency>
         <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-picocontainer</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
         </dependency>
     </dependencies>
     
